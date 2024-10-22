@@ -7,15 +7,15 @@ This repository contains high-quality datasets related to elections. As the worl
 
 ### Urgency of the Topic
 
-Given the rapid changes in political climates and the increasing importance of informed decision-making in democratic processes, it is urgent to study election data. The findings drawn from these datasets can contribute to better understanding voter behavior, improving electoral systems, and fostering civic engagement. The datasets can serve as a valuable resource for researchers, data analysts, and policy advocates aiming to influence electoral reforms and voter outreach strategies.
+Given the rapid changes in political climates and the increasing importance of informed decision-making in democratic processes, it is urgent to study election data.
 
 ## Dataset Quality
 
-The datasets are characterized by:
+The dataset are characterized by:
 
-- **High Volume**: A substantial amount of data is available, offering insights across various dimensions of electoral participation.
-- **Good Quality**: Most columns have minimal missing data, ensuring the reliability of analyses.
-- **Need for Corrections**: While the datasets are generally robust, some minor corrections may be required to optimize their usability.
+- **High Volume**: A substantial amount of data is available, offering insights across various dimensions of electoral participation. like presidential but also regional votes departement etc...
+- **Good Quality**: Most columns have minimal missing data, ensuring the reliability of analyses and that we can have numerous data.
+- **Need for Corrections**: While the dataset are overall robust, they still need some small corrections to optimize their usability.
 
 ## Column Descriptions
 
@@ -51,6 +51,6 @@ Here’s a detailed explanation of each column in the datasets:
 
 ## Conclusion
 
-Engagement with these datasets not only fosters a deeper understanding of electoral processes but also highlights the importance of accurate data in shaping the future of democratic participation. We encourage researchers and data enthusiasts to explore these datasets, conduct analyses, and contribute to the ongoing discourse surrounding electoral integrity and civic responsibility.
+Engagement with these datasets not only fosters a deeper understanding of the political situation in France but also highlights the importance of accurate data in shaping the future of democratic participation.
 
 Copyright 2024 [G1ul1o](https://github.com/G1ul1o "G1ul1o")
