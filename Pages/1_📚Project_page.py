@@ -6,10 +6,10 @@ from tool_functions.imports_ import *
 @st.cache_data
 def load_data():
     data = pd.read_csv("https://www.data.gouv.fr/fr/datasets/r/b8703c69-a18f-46ab-9e7f-3a8368dcb891",delimiter =';',low_memory=False,header=0)
-    data_election = pd.read_csv("https://www.data.gouv.fr/fr/datasets/r/52a11762-45b4-414f-b6a2-eaa290217dc6",delimiter =';',low_memory=False,header=0)
+    #data_election = pd.read_csv("https://www.data.gouv.fr/fr/datasets/r/52a11762-45b4-414f-b6a2-eaa290217dc6",delimiter =';',low_memory=False,header=0)
     data_copy = data.copy()
-    data_election_copy = data_election.copy()
-    return data_copy,data_election_copy
+    #data_election_copy = data_election.copy()
+    return data_copy,data
 
 @st.cache_data
 def preprocessing(data_copy):
@@ -251,7 +251,8 @@ st.write("Many people accuse growth of abstention rate saying that he was never 
 st.markdown("First hypothesis : __The abstention are higher than the last times__")
 st.markdown("Second hypothesis : __This changes just begins in the recent years__")
 st.write("Thanks to this interactive graph we will see wich of this statement are true")
-#data_copy,data_election_copy = load_data()
+
+data_copy,data_election_copy = load_data()
 
 
 data_copy=preprocessing(data_copy)
