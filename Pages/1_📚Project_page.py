@@ -251,7 +251,7 @@ st.write("Many people accuse growth of abstention rate saying that he was never 
 st.markdown("First hypothesis : __The abstention are higher than the last times__")
 st.markdown("Second hypothesis : __This changes just begins in the recent years__")
 st.write("Thanks to this interactive graph we will see wich of this statement are true")
-data_copy,data_election_copy = load_data()
+#data_copy,data_election_copy = load_data()
 
 
 data_copy=preprocessing(data_copy)
