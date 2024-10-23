@@ -13,8 +13,8 @@ st.write("As you can tell at my name I'm italian. One of my biggest passion isdo
 st.write("I also finished the 20km of Paris and the half marathon of Montreal during my semester abroad, where I could study at Concordia University.")
 st.write("Here is my Curiculum that resume a lot of my career so far. If my profil draws your attention feel free to contact me with the links at the end of this page.")
 
-
-cv_path = "../CV_validé_30-08-2024.pdf"
+current_dir = os.path.dirname(__file__)
+cv_path = os.path.join(current_dir,"..","CV_validé_30-08-2024.pdf")
 
 with open(cv_path, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
