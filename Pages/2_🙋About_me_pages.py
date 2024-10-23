@@ -14,7 +14,7 @@ st.write("I also finished the 20km of Paris and the half marathon of Montreal du
 st.write("Here is my Curiculum that resume a lot of my career so far. If my profil draws your attention feel free to contact me with the links at the end of this page.")
 
 
-cv_path = r"C:\Users\giuga\OneDrive\Documents\document administrtif\Document Giulio_Garnier\CV_validé_30-08-2024.pdf"
+cv_path = r"..\CV_validé_30-08-2024.pdf"
 
 with open(cv_path, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
